@@ -14,7 +14,7 @@ sap.ui.jsview("sampleapp23.SampleApp", {
 	*/ 
 	createContent : function(oController) {
  		return new sap.m.Page({
-			title: "Title",
+			title: "Page Title",
 			content: [
 			  new sap.m.Button(text:"Test",press:"OnPress");
 			]
